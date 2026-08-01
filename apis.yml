@@ -1,4 +1,16 @@
 aid: sitera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sitera.png
 name: SiTera
 description: 'SiTera is a company surfaced as a portfolio company of matrix-partners and added to the
   API Evangelist network as a stub for enrichment. Sector: semiconductors. This profile is a lead awaiting
@@ -12,7 +24,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Enrichment pass completed via DNS/HTTP probes. sitera.com (parkingcrew.net),
+    sitera.io and sitera.ai (GoDaddy for-sale landers) are all parked domains; no live
+    website, developer portal, or API surface exists. SiTera was a fiber-optic networking
+    chip startup acquired by Vitesse Semiconductor in 2000; the profile is a defunct
+    Matrix Partners portfolio lead. No artifacts to add.'
 tags:
 - Company
 - Semiconductors
